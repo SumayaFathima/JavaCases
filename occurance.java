@@ -9,15 +9,17 @@ class occurance {
 
 	public static void main(String[] args) {
 		String str = "You have no choice other than following me!";
-		int count = 0;
+		/*int count = 0;
 		char[] ch = str.toCharArray();
 		for (int i =0; i < ch.length-1; i++)
 		{
 			if(ch[i]=='o')
-				count++;
+			count++;
 		}
-		System.out.println(count);
+		System.out.println("Occurance of o = " +count);*/
 		
-    	        }
+		String rstr = str.replaceAll("[^o]", "");
+		System.out.println("Occurance of o = " +rstr.length());
+		
+    	}
 	}
-	   
