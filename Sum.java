@@ -2,7 +2,6 @@
    Input : "asdf1qwer9as8d7"
    Output: 1+9+8+7 = 25 */
 
-
 package java2;
 
 public class Sum {
